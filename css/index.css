@@ -9,11 +9,17 @@
 body{
 	font-size:14px;
 	line-height:20px;
+	padding:20px;
+}
+.main{
+	position:relative;
+	padding:20px;
+	background-color:#eee;
 }
 .team_name,.team_introduction,.team_logo{
 	padding:20px;
 	border:1px solid #999;
-	background-color:#eee;
+	background-color:#fff;
 }
 /*左栏*/
 .team_name{
@@ -38,9 +44,6 @@ body{
 /*右栏*/
 .team_logo{
 	float:right;
-	position:absolute;
-	top:0;
-	right:0;
 	width:80px;
 }
 .team_logo ul li{
@@ -57,5 +60,6 @@ body{
 }
 /*浮动清除*/
 .clear{
-	clear:both;
+	overflow:auto;
+	zoom:1;
 }
