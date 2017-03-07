@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	list-style:none;
+	color:000;
+}
+body{
+	font-size:14px;
+	line-height:20px;
+	background-color:#dedede;
+}
+.main{
+	position:relative;
+	background-color:#eee;
+	border:1px solid #999;
+}
+.main,.team_name,.team_introduction,.team_logo{
+	padding:20px;
+}
+/*左栏*/
+.main .team_name{
+	float:left;
+	width:160px;
+	height:auto;
+	background-color:#888;
+}
+.main .team_name img{
+	float:left;
+	width:80px;
+	height:80px;
+}
+.main .team_name h2{
+	display:inline-block;
+	margin-left:20px;
+}
+/*自适应中栏*/
+.main .team_introduction{
+	margin-left:220px;
+	margin-right:160px;
+	color:#fff;
+	background-color:#666;
+}
+.main .team_introduction p{
+	display:block;
+}
+/*右栏*/
+.main .team_logo{
+	display:block;
+	position:relative;
+	float:right;
+	margin-top:-160px;
+	width:80px;
+	background-color:#666;
+	clear:left;
+}
+.main .team_logo ul li{
+	margin-top:20px;
+	width:80px;
+	height:80px;
+}
+.main .team_logo li:nth-child(1){
+	margin-top:0;
+}
+.main .team_logo li img{
+	width:80px;
+	height:80px;
+}
+/*浮动清除*/
+.clearfixed{
+	overflow:auto;
+	zoom:1;
+}
